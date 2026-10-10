@@ -131,3 +131,26 @@ button {
     text-align: right;
     margin-top: 10px;
 }
+
+/* cta section*/
+.cta-section {
+    background-color: #3882f6;
+    color: #fff;
+    margin: 70px 15%;
+    text-align: center;
+    padding: 30px 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.cta-section h3 {
+    text-align: left;
+    font-size: 20px;
+}
+
+.cta-section button {
+    border: 1px solid #fff
+}
