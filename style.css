@@ -9,6 +9,8 @@ body {
 
 }
 
+/*Hero Section*/
+
 .hero-section {
     background-color: #1f2937;
     color: #f9faf8;
@@ -38,8 +40,6 @@ body {
 
 }
 
-
-
 .hero-section .navbar .nav-links a {
     text-decoration: none;
 
@@ -47,7 +47,6 @@ body {
     color: #e5e7eb;
 
 }
-
 
 .hero-section .hero-content {
     margin-top: 70px;
@@ -81,4 +80,35 @@ button {
     color: #fff;
     font-weight: bold;
     cursor: pointer;
+}
+
+/*Info Section*/
+
+.info-section {
+    padding: 40px 20%;
+    text-align: center;
+}
+
+.info-section h2 {
+    margin-bottom: 40px;
+}
+
+.info-section .cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-section .cards-container .card {
+    width: 150px;
+}
+
+.info-section .cards-container img {
+    border-radius: 5px;
+}
+
+.info-section .cards-container p {
+    font-size: 18px;
+    color: #333;
 }
