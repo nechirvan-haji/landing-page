@@ -154,3 +154,13 @@ button {
 .cta-section button {
     border: 1px solid #fff
 }
+
+/* footer section*/
+
+.footer {
+    background-color: #1f2937;
+    padding: 20px 0;
+    text-align: center;
+    color: #f9faf8;
+
+}
