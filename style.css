@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.hero-section {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 20px 15% 70px;
+
+
+}
+
+.hero-section .navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-section .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero-section .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+
+.hero-section .navbar .nav-links a {
+    text-decoration: none;
+
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+
+.hero-section .hero-content {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.hero-section .hero-content .hero-text {
+    max-width: 400px;
+}
+
+.hero-section .hero-content .hero-text p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-section .hero-content .hero-text h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 7px 25px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
